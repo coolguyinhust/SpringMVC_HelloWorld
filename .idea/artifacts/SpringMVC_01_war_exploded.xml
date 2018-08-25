@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringMVC-01:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringMVC_01_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringMVC-01/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMVC-01" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="org.springframework:spring-webmvc:4.2.7.RELEASE" />
+          <element id="library" level="application" name="org.springframework:spring-jdbc:5.0.8.RELEASE" />
+          <element id="library" level="application" name="org.springframework:spring:2.0.5" />
+          <element id="file-copy" path="E:/SpringSourceCode/spring-framework-4.1.6.RELEASE/libs/spring-web-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="E:/SpringSourceCode/spring-framework-4.1.6.RELEASE/libs/spring-webmvc-4.1.6.RELEASE.jar" />
+          <element id="library" level="application" name="spring-expression-4.1.6.RELEASE" />
+          <element id="file-copy" path="E:/SpringSourceCode/spring-framework-4.1.6.RELEASE/libs/spring-core-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="E:/SpringSourceCode/spring-framework-4.1.6.RELEASE/libs/spring-context-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="E:/SpringSourceCode/spring-framework-4.1.6.RELEASE/libs/spring-beans-4.1.6.RELEASE.jar" />
+          <element id="file-copy" path="E:/SpringSourceCode/commons/commons-logging-1.2.jar" />
+          <element id="file-copy" path="E:/SpringSourceCode/spring-framework-4.1.6.RELEASE/libs/spring-aop-4.1.6.RELEASE.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
